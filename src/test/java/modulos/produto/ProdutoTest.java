@@ -29,12 +29,12 @@ public class ProdutoTest {
 
         this.app.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 
-    };
+    }
 
     @AfterEach
     public void afterEach(){
        app.quit();
-    };
+    }
 
     @DisplayName("Not allowed product value")
     @Test

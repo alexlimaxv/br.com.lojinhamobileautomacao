@@ -7,10 +7,10 @@ public class ListagemDeProdutosTela extends  BaseTela{
 
     public ListagemDeProdutosTela(AndroidDriver app) {
         super(app);
-    };
+    }
 
     public FormularioAdicaoProdutoTela abrirTelaAdicaoProduto() {
         app.findElement(AppiumBy.id("com.lojinha:id/floatingActionButton")).click();
         return new FormularioAdicaoProdutoTela(app);
-    };
+    }
 }

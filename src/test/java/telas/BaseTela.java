@@ -8,7 +8,7 @@ public class BaseTela {
 
     public BaseTela(AndroidDriver app) {
         this.app = app;
-    };
+    }
 
     public String capturarToast() {
         return app.findElement(AppiumBy.xpath("//android.widget.Toast")).getText();
